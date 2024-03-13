@@ -34,7 +34,7 @@ We start by creating a builder
 
 
 | BUILDER                               | PROTOTYPE                               |
------------------------------------------------------------------------------------
+|---------------------------------------|-----------------------------------------|
 | you have a complex constructor and  builder allow us to work with that  | Prototype allow us to altogether skip  using constructor.                      |
 | We can create builder as a separate class and so it can work with legacy code | In java this pattern works using clone method, and needs to motify existing code so may not work with legacy code |
 
@@ -48,4 +48,3 @@ If required properties are missing, build ethod should provided suitable  defaul
 ### Summary 
 
 1. Think of builder pattern when you have a complex constructor or an object is build in multiple steps.
-2. 
