@@ -1,8 +1,9 @@
 # 🧭 Adapter 🧭
 
 A structural design pattern.
-
-<img src="assets/adapter.jpg" alt="Adapter Design Pattern"/>
+<center>
+<img  src="assets/adapter.jpg" alt="Adapter Design Pattern"  />  
+</center>
 
 ### What is Adapter? 🤔
 
@@ -47,8 +48,8 @@ An object adapter should take adaptee as an argument in constructor or as a less
 
 ## Summary 📚
 
-> [!IMPORANT]
-> We have an existing object with required functionality but the client code is expecting a different interface than our object.
+>[!IMPORTANT]
+>We have an existing object with required functionality but the client code is expecting a different interface than our object.
 
 - A class adapter is one where adapter inheris from adaptee and implements target interface.
 
